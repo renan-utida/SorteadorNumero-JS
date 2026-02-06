@@ -31,6 +31,7 @@ Antes de realizar o sorteio, o sistema verifica:
 ### 3️⃣ Sorteio
 Ao clicar em **"Sortear"**:
 - Os números aleatórios são gerados sem repetição
+- O resultado é ordenado em ordem crescente antes da exibição
 - O resultado é exibido na tela
 - O botão "Sortear" é **desabilitado**
 - O botão "Reiniciar" é **habilitado**
@@ -54,6 +55,7 @@ Ao clicar em **"Reiniciar"**:
 - ✅ Sistema de validação de entradas
 
 ### 🚀 Melhorias implementadas além do curso base
+- ✅ **Ordenação dos resultados** — números exibidos do menor para o maior
 - ✅ **Controle de estado dos botões** - Sortear desabilita após uso
 - ✅ **Validação completa** - Previne erros do usuário
   - Campos vazios
