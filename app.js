@@ -32,6 +32,9 @@ function sortear(){
         sorteados.push(numero);
     }
 
+    // Ordenando em ordem crescente
+    sorteados.sort((a, b) => a - b);
+
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados}</label>`;
 
